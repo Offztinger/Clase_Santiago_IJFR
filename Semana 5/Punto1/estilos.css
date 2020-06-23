@@ -1,0 +1,10 @@
+/*Se define la lista que se encuentra en dirección horizontal*/
+.listahorizontal{
+	display:inline-block;
+	padding:15px 45px;
+}
+
+.listahorizontal li{
+	display:inline-block;
+	padding:7px;
+} 

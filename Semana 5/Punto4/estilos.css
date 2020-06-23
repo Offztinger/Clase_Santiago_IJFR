@@ -1,0 +1,33 @@
+body{
+	border:8px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.contenido{
+	position:block;
+	margin-top:106px;
+	font-size:18px;
+	margin-bottom:40px;
+	margin:106px 25% 40px 25%;
+}
+
+h1{
+	font-size:32px;
+	margin-bottom:32px;
+}
+
+p{
+	font-size:18px;
+	margin-bottom:27px;
+}
+
+a{
+	padding-top:8px 16px;
+	margin-left:-16px;
+}
+
+.moreinfo{
+	display:inline-block;
+	margin-left:15px;
+}
