@@ -1,0 +1,49 @@
+.contenido{
+	display:grid;
+	grid-gap:5px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 235px);
+}
+body div div{
+	background:#F71D9B;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color: white
+}
+
+.uno{
+	grid-column:1/3;
+	grid-row:1/2;
+	text-align: center;
+}
+
+.dos{
+	grid-column:3/5;
+	grid-row:1/3;
+	text-align: center;
+}
+
+.tres{
+	grid-column:1/2;
+	grid-row:2/4;
+	text-align: center;
+}
+
+.cuatro{
+	grid-column:2/3;
+	grid-row:2/3;
+	text-align: center;
+}
+
+.cinco{
+	grid-column:2/3;
+	grid-row:3/4;
+	text-align: center;
+}
+
+.seis{
+	grid-column:3/5;
+	grid-row:3/4;
+	text-align: center;
+}

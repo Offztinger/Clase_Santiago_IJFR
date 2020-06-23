@@ -1,0 +1,71 @@
+body{
+	color:#333;
+	font-family:Arial;
+	font-size: 18px;
+}
+
+#principal{
+	background:#eee;
+}
+
+#titulo h1{
+	font-size:30px;
+	margin:0;
+	margin-top:2vh;
+}
+
+#titulo p{
+	margin:0;
+	opacity:0.99;
+	margin:2vh 0vh;
+	margin-top:1vh;
+}
+
+#div-img{
+	background:#fff;
+}
+
+#div-img img{
+	margin-top:30px;
+	margin-bottom:17px;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+	border-radius:15px;
+}
+
+#caption-img{
+	margin-top:0;
+}
+
+#tributo-info h4{
+	padding-top:1vh;
+	font-size:30px;
+	margin-bottom:2vh;
+}
+
+#tributo-info p{
+	padding:0px 28%;
+	padding-bottom:3vh;
+	text-align:justify;
+}
+
+#fin-info-tributo{
+	font-size:20px;
+	padding:0px 25%;
+	padding-bottom:3vh;
+	text-align:center;
+}
+
+.moreinfo{
+	padding-top:1vh;
+}
+
+#div-img, #titulo, #tributo-info{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
