@@ -1,0 +1,31 @@
+
+body{
+	width:100%;
+	height:930px;
+}
+div{
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+table{
+	border:1px;
+	border-collapse:separate;
+	width:500px;
+	color:#fff;;
+}
+table td{
+	padding:30px;
+	background:#ED6B6B;
+}
+th{
+	padding:15px;
+	background:#961111;
+}
+table td:hover{
+	background:#C70D0D;
+	size:10px;
+	color:#fff; 
+}

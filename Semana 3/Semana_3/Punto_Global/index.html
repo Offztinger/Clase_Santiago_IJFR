@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Taller 3</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header>
+		<h1>Titulo Principal</h1>
+	</header>
+	<section>
+		<div class="body">
+		<div class="contenedor">
+			<div class="articulos">
+				<article>
+					<table>
+						Primer punto: <br>
+						<tr>			
+							<th>Lunes</th>
+							<th>Martes</th>
+							<th>Miercoles</th>
+							<th>Jueves</th>
+							<th>Viernes</th>
+							<th>Sabado</th>
+							<th>Domingo</th>
+						</tr>
+						<tr>
+							<td>Sardina</td>
+							<td>Pollo Asado</td>
+							<td>Arroz con Pollo</td>
+							<td>Lentejas</td>
+							<td>Pasta</td>
+							<td>Frijoles</td>
+							<td>Pescado</td>
+						</tr>
+					</table>
+				</article>
+				<br>
+				<article>
+					Pregunta: ¿Qué quedará en rojo? Respuesta: Quedará color rojo los textos que dicen "Enlace 1","Enlace 2", "Enlace 3", "Enlace 4" y también el titulo h3.
+				</article>
+				<br>
+				<article>
+					<ul>
+						<li>¿Por qué los enlaces son verdes y no rojos?<br>
+							Respuesta:Son verdes y no rojos porque el codigo se lee en cascada y porque siempre se hace preferencia a lo que este más especifico.
+						</li><br>
+						<li>Hacer que los enlaces sean rojos<br>
+							Respuesta: Se hace borrando estas lineas de codigo: <br>ul.news li.news__item a.news__item-link{<br> color: green; <br>}
+						</li><br>
+						<li>Rehacer el HTML usando div en lugar de ul y li. ¿Qué pasa?<br>
+							Respuesta: Se pierden todos los estilos que tenían ul y li.
+						</li><br>
+						<li>Comentar el CSS que no se puede tocar y reescribir este CSS usando una clase por selector para que se vea igual.<br>
+							Respuesta: Simplemente remplazar en el css todo los ul y li por div y los estilos vuelven
+						</li><br>
+					</ul>
+				</article>
+			</div>
+			<div class="aside">
+				<aside>
+					<div class= ideassecundaria><p><h3>Idea secundaria</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis dolorem autem, perferendis voluptates accusantium et harum laboriosam nulla nihil error eius delectus eaque, ab non fugiat voluptatum quas corporis commodi.</p></div>
+					<br />
+					<div class= ideassecundaria2><p><h3>Idea secundaria</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim expedita earum, id maiores ipsum omnis vel, natus minima officia ducimus magnam beatae itaque. Quod autem maxime officia quasi tempore?</p></div>
+				</aside>
+			</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h3>@Copyright By Calvito - 2020</h3>
+	</footer>
+</body>
+</html>
