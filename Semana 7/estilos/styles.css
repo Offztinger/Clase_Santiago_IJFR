@@ -1,0 +1,120 @@
+*{
+	margin:0;
+}
+
+:root{
+	--color_pagina:#ae4c56;
+	--color_pagina_claro:#f2716b;
+}
+/*********************************************
+	Header
+*********************************************/
+header{
+	background: var(--color_pagina);
+	z-index:2;
+	width:100%;
+}
+.nav-header a{
+	color:white !important;
+}
+.container-logo-header{
+	width:80px;
+	height:auto;
+}
+.container-logo-header img{
+	width:100%;
+	height:auto;
+}
+/*********************************************
+	Imagen
+*********************************************/
+.imagen-inicio{
+	position:absolute;
+	width:100%;
+	height:90vh;
+}
+.botones{
+	margin-top:8%;
+	height:90vh;
+}
+
+/*********************************************
+	Botones
+*********************************************/
+.title-botones-inicio{
+	color:white;
+	z-index:1;
+	margin-bottom:12%;
+}
+.card-body, .card-inicio{
+	background:var(--color_pagina_claro);
+	border-radius:10px;
+}
+.card-inicio{
+	border:none;
+}
+.card-body{
+	padding:0;
+}
+.imagen-bottones-inicio{
+	width:100%;
+	height:auto;
+	border-radius:10px;
+}
+/*********************************************
+	Acerca de
+*********************************************/
+.contenedor-acercade{
+	margin-top:7%;
+	margin-bottom:7%;
+}
+.img-acercade{
+	width:100%;
+}
+.title-info-acercade h3{
+	color:var(--color_pagina_claro);
+}
+.title-info-acercade p{
+	color:#adadad;
+}
+.ul-info-acercade{
+	list-style:none
+}
+.icono-contenedor-acercade{
+	width:10px;
+	height:auto;
+}
+.icono-contenedor-acercade img{
+	width:100%;
+	height:auto;
+}
+/*********************************************
+	Objetivos
+*********************************************/
+#objetivos{
+	background:#f8f8f8;
+}
+.margin-top-objetivos{
+	padding-top:14%;
+	padding-bottom:14%;
+}
+.imagen-objetivos{
+	width:100%;
+	height:auto;
+}
+/*********************************************
+	Footer
+*********************************************/
+footer{
+	background:var(--color_pagina);
+	color:#f8f8f8;
+}
+.footer-down{
+	margin-top:3%;
+}
+.copyright{
+	margin:0;
+}
+.letra-color-pagina_claro{
+	color:var(--color_pagina_claro);
+}
